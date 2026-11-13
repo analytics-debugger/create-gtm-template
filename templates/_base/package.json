@@ -1,0 +1,8 @@
+{
+  "name": "{{DIR}}",
+  "private": true,
+  "scripts": {
+    "validate": "npx -y create-gtm@latest validate",
+    "release": "npx -y create-gtm@latest release"
+  }
+}

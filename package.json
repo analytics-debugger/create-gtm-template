@@ -1,0 +1,38 @@
+{
+  "name": "create-gtm",
+  "version": "0.1.0",
+  "description": "Scaffold Google Tag Manager custom templates (variables, tags and server-side clients)",
+  "type": "module",
+  "bin": {
+    "create-gtm": "index.js",
+    "create-gtm-template": "index.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "templates"
+  ],
+  "keywords": [
+    "gtm",
+    "google-tag-manager",
+    "custom-template",
+    "server-side",
+    "scaffold"
+  ],
+  "homepage": "https://github.com/analytics-debugger/create-gtm-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/analytics-debugger/create-gtm-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/analytics-debugger/create-gtm-template/issues"
+  },
+  "author": "Analytics Debugger S.L.U.",
+  "engines": {
+    "node": ">=18.3"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@clack/prompts": "^1.9.0"
+  }
+}
